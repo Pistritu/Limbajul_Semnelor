@@ -1,0 +1,3640 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1007894682981122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4924765191487810}
+  m_Layer: 0
+  m_Name: Schelet_Mana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4924765191487810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007894682981122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4408539146194232}
+  m_Father: {fileID: 4418623256008480}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1055791862724950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4552347679568862}
+  m_Layer: 0
+  m_Name: Radacina2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4552347679568862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055791862724950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.048596818, y: -0.000000028610229, z: -0.000000042915342}
+  m_LocalScale: {x: 0.9999998, y: 0.9999998, z: 0.9999999}
+  m_Children:
+  - {fileID: 4914002393223758}
+  m_Father: {fileID: 4729992407044558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1096850534299660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4885674682292120}
+  - component: {fileID: 135301463630117798}
+  m_Layer: 0
+  m_Name: Deget2_Final
+  m_TagString: mijlociu
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4885674682292120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096850534299660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.026304169, y: -0.000000009536743, z: 0.000000028610229}
+  m_LocalScale: {x: -1, y: -0.99999994, z: -0.99999994}
+  m_Children: []
+  m_Father: {fileID: 4740380146412634}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &135301463630117798
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096850534299660}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1112879589227108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4740380146412634}
+  - component: {fileID: 114683713203524440}
+  - component: {fileID: 114141833611883174}
+  m_Layer: 0
+  m_Name: Deget2_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4740380146412634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112879589227108}
+  m_LocalRotation: {x: -0, y: -0.00000009313222, z: 0.000000026542684, w: 1}
+  m_LocalPosition: {x: -0.028182724, y: 0, z: 0.000000009536743}
+  m_LocalScale: {x: 0.9999999, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 4885674682292120}
+  m_Father: {fileID: 4082513739290098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114683713203524440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112879589227108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 1014
+    y: 343
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 1014
+      y: 363
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 1014
+      y: 381
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 1014
+      y: 399
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 89.55449
+      value: 91.11944
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114141833611883174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112879589227108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 1028
+    y: 440
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget2_2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 1028
+      y: 460
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114683713203524440}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 1028
+      y: 478
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 1028
+      y: 496
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 1028
+      y: 514
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 1028
+      y: 532
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1135445017662540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4395446800916726}
+  - component: {fileID: 114025038122066590}
+  - component: {fileID: 114953541711332250}
+  m_Layer: 0
+  m_Name: Deget1_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4395446800916726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135445017662540}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.024784192, y: -0.000000085830685, z: -0.000000009536743}
+  m_LocalScale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 4134083173746076}
+  m_Father: {fileID: 4351471525479202}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114025038122066590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135445017662540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 472
+    y: 358
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 378
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 396
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 472
+      y: 414
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 85.012985
+      value: 83.976
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114953541711332250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135445017662540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 645
+    y: 337
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget1_2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 357
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114025038122066590}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 375
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 393
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 411
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 645
+      y: 429
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1142860837751154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4418623256008480}
+  - component: {fileID: 95180572769967126}
+  - component: {fileID: 54917947806153726}
+  m_Layer: 0
+  m_Name: ManaPrefabricat
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4418623256008480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142860837751154}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 13, y: 13, z: 13.000028}
+  m_Children:
+  - {fileID: 4115812836901042}
+  - {fileID: 4924765191487810}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+--- !u!95 &95180572769967126
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142860837751154}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 1140de03f648349c6976a0ad6bce907c, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!54 &54917947806153726
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142860837751154}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1312787821023654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4334785911156200}
+  - component: {fileID: 135960809325895832}
+  m_Layer: 0
+  m_Name: Deget3_Final
+  m_TagString: inelar
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4334785911156200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312787821023654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.024254436, y: 0, z: -0.000000019073486}
+  m_LocalScale: {x: -0.9999998, y: -0.9999999, z: -1}
+  m_Children: []
+  m_Father: {fileID: 4959239475671628}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &135960809325895832
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312787821023654}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1331274246874058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4640400849551446}
+  - component: {fileID: 114420261219624474}
+  - component: {fileID: 114202457242540062}
+  m_Layer: 0
+  m_Name: Deget4_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4640400849551446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331274246874058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.029679278, y: -0.0000000667572, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 4208710432707654}
+  m_Father: {fileID: 4848669039095220}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114420261219624474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331274246874058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 293
+    y: 602
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 622
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 640
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 293
+      y: 658
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 84.37846
+      value: 84.48279
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114202457242540062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331274246874058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 466
+    y: 619
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget4_1
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 639
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114420261219624474}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 657
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 675
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 693
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 466
+      y: 711
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1339082051611780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4387457531601970}
+  - component: {fileID: 135908122583659146}
+  m_Layer: 0
+  m_Name: Deget0_Final
+  m_TagString: mare
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4387457531601970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339082051611780}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.028568773, y: 0.000000038146972, z: 0.000000088214875}
+  m_LocalScale: {x: -1, y: -0.99999994, z: -1}
+  m_Children: []
+  m_Father: {fileID: 4860334463891644}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &135908122583659146
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339082051611780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1339522418533176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4661848864295078}
+  - component: {fileID: 114469156215386786}
+  - component: {fileID: 114588483277964188}
+  m_Layer: 0
+  m_Name: Deget3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4661848864295078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339522418533176}
+  m_LocalRotation: {x: -0, y: -0.00000009313222, z: 0.000000026542684, w: 1}
+  m_LocalPosition: {x: -0.07933113, y: -0.0016047215, z: -0.014868955}
+  m_LocalScale: {x: 1.0000008, y: 0.99999905, z: 1.0000004}
+  m_Children:
+  - {fileID: 4100130736862834}
+  m_Father: {fileID: 4630104849187886}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114469156215386786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339522418533176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 415
+    y: 437
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 457
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 475
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 493
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 84.57774
+      value: 84.63034
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114588483277964188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339522418533176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 636
+    y: 442
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget3
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 462
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114469156215386786}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 480
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 498
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 516
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 636
+      y: 534
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1356672517991612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4045925758276042}
+  - component: {fileID: 135830420808331158}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4045925758276042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356672517991612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.079, y: 0.045, z: 0.005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4630104849187886}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &135830420808331158
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356672517991612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1362419922732598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4764675861229814}
+  - component: {fileID: 135502094854018930}
+  m_Layer: 0
+  m_Name: Deget4_Final
+  m_TagString: mic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4764675861229814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362419922732598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.021827545, y: -0.000000028610229, z: 0.000000057220458}
+  m_LocalScale: {x: -1.0000002, y: -1, z: -0.99999994}
+  m_Children: []
+  m_Father: {fileID: 4208710432707654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &135502094854018930
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362419922732598}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1375785513117748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4478968077776680}
+  - component: {fileID: 114191686475663074}
+  - component: {fileID: 114487393612164136}
+  m_Layer: 0
+  m_Name: Deget2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4478968077776680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375785513117748}
+  m_LocalRotation: {x: -0, y: -0.00000014016399, z: 0.000000021420412, w: 1}
+  m_LocalPosition: {x: -0.08142904, y: -0.002755506, z: 0.0044407556}
+  m_LocalScale: {x: 0.9999999, y: 0.9999991, z: 1.0000001}
+  m_Children:
+  - {fileID: 4082513739290098}
+  m_Father: {fileID: 4630104849187886}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114191686475663074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375785513117748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 969
+    y: 9
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 969
+      y: 29
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 969
+      y: 47
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 969
+      y: 65
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 84.32701
+      value: 84.55904
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114487393612164136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375785513117748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 1025
+    y: 89
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 1025
+      y: 109
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114191686475663074}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 1025
+      y: 127
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 1025
+      y: 145
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 1025
+      y: 163
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 1025
+      y: 181
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1412989628449486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4082513739290098}
+  - component: {fileID: 114694288706425094}
+  - component: {fileID: 114396224129866320}
+  m_Layer: 0
+  m_Name: Deget2_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4082513739290098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412989628449486}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0461596, y: 0.000000057220458, z: -0.000000009536743}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 0.99999994}
+  m_Children:
+  - {fileID: 4740380146412634}
+  m_Father: {fileID: 4478968077776680}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114694288706425094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412989628449486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 928
+    y: 133
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 928
+      y: 153
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 928
+      y: 171
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 928
+      y: 189
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 96.769806
+      value: 97.574684
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114396224129866320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412989628449486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 985
+    y: 219
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget2_1
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 985
+      y: 239
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114694288706425094}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 985
+      y: 257
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 985
+      y: 275
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 985
+      y: 293
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 985
+      y: 311
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1419533158117502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4914002393223758}
+  m_Layer: 0
+  m_Name: Radacina3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4914002393223758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419533158117502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0485968, y: 0.000000028610229, z: 0.00000010728836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4177398148733036}
+  m_Father: {fileID: 4552347679568862}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1511064516454912
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4208710432707654}
+  - component: {fileID: 114988403888941126}
+  - component: {fileID: 114363445893826050}
+  m_Layer: 0
+  m_Name: Deget4_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4208710432707654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511064516454912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.020583753, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1.0000002}
+  m_Children:
+  - {fileID: 4764675861229814}
+  m_Father: {fileID: 4640400849551446}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114988403888941126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511064516454912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 653
+    y: 625
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 645
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 663
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 653
+      y: 681
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 89.55449
+      value: 91.11944
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114363445893826050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511064516454912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 1016
+    y: 590
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget4_2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 1016
+      y: 610
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114988403888941126}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 1016
+      y: 628
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 1016
+      y: 646
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 1016
+      y: 664
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 1016
+      y: 682
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1511542762150984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4408539146194232}
+  m_Layer: 0
+  m_Name: Rotire1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4408539146194232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511542762150984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4729992407044558}
+  m_Father: {fileID: 4924765191487810}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1543440071343924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4626733761833670}
+  - component: {fileID: 114889029202970240}
+  - component: {fileID: 114030648450237936}
+  m_Layer: 0
+  m_Name: Deget0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4626733761833670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543440071343924}
+  m_LocalRotation: {x: -0.19332488, y: 0.5299639, z: 0.34239218, w: 0.75135297}
+  m_LocalPosition: {x: -0.027367866, y: 0.020160304, z: 0.027376175}
+  m_LocalScale: {x: 0.9999998, y: 1.0000013, z: 1.0000006}
+  m_Children:
+  - {fileID: 4723868505551450}
+  m_Father: {fileID: 4630104849187886}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -40.8, y: 61.3, z: 0}
+--- !u!114 &114889029202970240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543440071343924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 685
+    y: 2
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget0
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 685
+      y: 22
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114030648450237936}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 685
+      y: 40
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 685
+      y: 58
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 685
+      y: 76
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 685
+      y: 94
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 0
+  invert: 1
+--- !u!114 &114030648450237936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543440071343924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 530
+    y: 5
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 25
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 43
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 530
+      y: 61
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 88.36976
+      outSlope: 88.36976
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0224609
+      value: 90.35463
+      inSlope: 88.36976
+      outSlope: 88.36976
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1570814405547298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4177398148733036}
+  m_Layer: 0
+  m_Name: Radacina4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4177398148733036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570814405547298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.048596792, y: -0.000000028610229, z: -0.0000001168251}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4090499843892946}
+  m_Father: {fileID: 4914002393223758}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1673499930179510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4100130736862834}
+  - component: {fileID: 114006410014555310}
+  - component: {fileID: 114522946388650038}
+  m_Layer: 0
+  m_Name: Deget3_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4100130736862834
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673499930179510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.043753166, y: 0.000000038146972, z: -0.000000028610229}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 4959239475671628}
+  m_Father: {fileID: 4661848864295078}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114006410014555310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673499930179510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 484
+    y: 499
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 519
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 537
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 555
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 86.82243
+      value: 86.31069
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114522946388650038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673499930179510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 804
+    y: 475
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget3_1
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 495
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114006410014555310}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 513
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 531
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 549
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 804
+      y: 567
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1675028252752400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4090499843892946}
+  m_Layer: 0
+  m_Name: Radacina5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4090499843892946
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675028252752400}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.048596863, y: 0, z: 0.0000000333786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4630104849187886}
+  m_Father: {fileID: 4177398148733036}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1711760057974454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4974668945582438}
+  - component: {fileID: 114208700120614710}
+  - component: {fileID: 114371495672102116}
+  m_Layer: 0
+  m_Name: Deget1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4974668945582438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711760057974454}
+  m_LocalRotation: {x: -0, y: -0.00000014016399, z: 0.000000021420412, w: 1}
+  m_LocalPosition: {x: -0.08114121, y: 0.0009858895, z: 0.0290003}
+  m_LocalScale: {x: 0.99999946, y: 1.0000001, z: 1.0000011}
+  m_Children:
+  - {fileID: 4351471525479202}
+  m_Father: {fileID: 4630104849187886}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114208700120614710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711760057974454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 642
+    y: 235
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 642
+      y: 255
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 642
+      y: 273
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 642
+      y: 291
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 85.8698
+      value: 85.339165
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114371495672102116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711760057974454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 803
+    y: 245
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget1
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 803
+      y: 265
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114208700120614710}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 803
+      y: 283
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 803
+      y: 301
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 803
+      y: 319
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 803
+      y: 337
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1733876337704920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4860334463891644}
+  - component: {fileID: 114453023321254724}
+  - component: {fileID: 114133308304459060}
+  m_Layer: 0
+  m_Name: Deget0_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4860334463891644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733876337704920}
+  m_LocalRotation: {x: -0.00000018612867, y: -0.0000010356305, z: -0.2871016, w: 0.95790017}
+  m_LocalPosition: {x: -0.031016232, y: -0.000000038146972, z: -0.000000114440915}
+  m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 4387457531601970}
+  m_Father: {fileID: 4723868505551450}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114453023321254724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733876337704920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 510
+    y: 177
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 197
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 215
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 510
+      y: 233
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 89.75589
+      outSlope: 89.75589
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2725675
+      value: 24.464539
+      inSlope: 98.428406
+      outSlope: 98.428406
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 100.56622
+      inSlope: 104.61684
+      outSlope: 104.61684
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114133308304459060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733876337704920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 787
+    y: 0
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget0_2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 787
+      y: 20
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114453023321254724}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 787
+      y: 38
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 787
+      y: 56
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 787
+      y: 74
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 787
+      y: 92
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1754484801735162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4848669039095220}
+  - component: {fileID: 114865421295842642}
+  - component: {fileID: 114832531216019358}
+  m_Layer: 0
+  m_Name: Deget4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4848669039095220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754484801735162}
+  m_LocalRotation: {x: 0.00000008940694, y: 0.00000016950065, z: 0.00000004470347,
+    w: 1}
+  m_LocalPosition: {x: -0.07214708, y: 0.0010843468, z: -0.032603465}
+  m_LocalScale: {x: 1.0000005, y: 1.0000001, z: 0.9999999}
+  m_Children:
+  - {fileID: 4640400849551446}
+  m_Father: {fileID: 4630104849187886}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114865421295842642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754484801735162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 430
+    y: 525
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 430
+      y: 545
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 430
+      y: 563
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 430
+      y: 581
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.054260254
+      value: 0.44415283
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 74.998795
+      value: 74.55881
+      inSlope: 1.0936797
+      outSlope: 1.0936797
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14919783
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114832531216019358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754484801735162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 850
+    y: 588
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget4
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 608
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114865421295842642}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 626
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 644
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 662
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 680
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1772241258598680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4115812836901042}
+  - component: {fileID: 137742634789689396}
+  m_Layer: 0
+  m_Name: Mesh_Mana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4115812836901042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772241258598680}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4418623256008480}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &137742634789689396
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772241258598680}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 36222fc8e0d593f4cbddcc6979c70e4a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300002, guid: 1140de03f648349c6976a0ad6bce907c, type: 3}
+  m_Bones:
+  - {fileID: 4090499843892946}
+  - {fileID: 4177398148733036}
+  - {fileID: 4630104849187886}
+  - {fileID: 4626733761833670}
+  - {fileID: 4860334463891644}
+  - {fileID: 4723868505551450}
+  - {fileID: 4478968077776680}
+  - {fileID: 4661848864295078}
+  - {fileID: 4974668945582438}
+  - {fileID: 4848669039095220}
+  - {fileID: 4395446800916726}
+  - {fileID: 4351471525479202}
+  - {fileID: 4740380146412634}
+  - {fileID: 4082513739290098}
+  - {fileID: 4959239475671628}
+  - {fileID: 4100130736862834}
+  - {fileID: 4208710432707654}
+  - {fileID: 4640400849551446}
+  - {fileID: 4914002393223758}
+  - {fileID: 4552347679568862}
+  - {fileID: 4729992407044558}
+  - {fileID: 4924765191487810}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4924765191487810}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.04, y: 0.03, z: 0.03}
+  m_DirtyAABB: 0
+--- !u!1 &1802813100123050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4729992407044558}
+  m_Layer: 0
+  m_Name: Radacina1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4729992407044558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802813100123050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4552347679568862}
+  m_Father: {fileID: 4408539146194232}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1813053093315806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4723868505551450}
+  - component: {fileID: 114146097512927144}
+  - component: {fileID: 114573660541397212}
+  m_Layer: 0
+  m_Name: Deget0_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4723868505551450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813053093315806}
+  m_LocalRotation: {x: -0.0000005811452, y: 0.01675352, z: -0.00000032037488, w: 0.9998597}
+  m_LocalPosition: {x: -0.03565564, y: 0.000000009536743, z: 0.00000014066696}
+  m_LocalScale: {x: 1, y: 0.9999998, z: 1}
+  m_Children:
+  - {fileID: 4860334463891644}
+  m_Father: {fileID: 4626733761833670}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 1.92, z: 0}
+--- !u!114 &114146097512927144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813053093315806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 488
+    y: 92
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 112
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 130
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 488
+      y: 148
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 47.93906
+      outSlope: 47.93906
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.049118
+      value: 50.29373
+      inSlope: 47.93906
+      outSlope: 47.93906
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114573660541397212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813053093315806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 751
+    y: 120
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget0_1
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 751
+      y: 140
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114146097512927144}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 751
+      y: 158
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 751
+      y: 176
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 751
+      y: 194
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 751
+      y: 212
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1839976415368002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4959239475671628}
+  - component: {fileID: 114729384675786236}
+  - component: {fileID: 114405049901192544}
+  m_Layer: 0
+  m_Name: Deget3_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4959239475671628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839976415368002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.024994306, y: 0, z: 0.000000019073486}
+  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_Children:
+  - {fileID: 4334785911156200}
+  m_Father: {fileID: 4100130736862834}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114729384675786236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839976415368002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 646
+    y: 559
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 646
+      y: 579
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 646
+      y: 597
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 646
+      y: 615
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 95.79343
+      value: 95.24976
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114405049901192544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839976415368002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 973
+    y: 493
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget3_2
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 973
+      y: 513
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114729384675786236}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 973
+      y: 531
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 973
+      y: 549
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 973
+      y: 567
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 973
+      y: 585
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
+--- !u!1 &1852320413470794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4134083173746076}
+  - component: {fileID: 135974630491589924}
+  m_Layer: 0
+  m_Name: Deget1_Final
+  m_TagString: aratator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4134083173746076
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852320413470794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.023763895, y: 0.00000007152557, z: 0.000000019073486}
+  m_LocalScale: {x: -0.9999999, y: -0.9999998, z: -0.9999999}
+  m_Children: []
+  m_Father: {fileID: 4395446800916726}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &135974630491589924
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852320413470794}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.01
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1862487355049204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4630104849187886}
+  m_Layer: 0
+  m_Name: Palma
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4630104849187886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862487355049204}
+  m_LocalRotation: {x: 0.7111127, y: -0.009932043, z: 0.077519596, w: 0.6987209}
+  m_LocalPosition: {x: -0.04859704, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4626733761833670}
+  - {fileID: 4974668945582438}
+  - {fileID: 4478968077776680}
+  - {fileID: 4661848864295078}
+  - {fileID: 4848669039095220}
+  - {fileID: 4045925758276042}
+  m_Father: {fileID: 4090499843892946}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 95.57, y: -83.16, z: -76.061005}
+--- !u!1 &1869430969542298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4351471525479202}
+  - component: {fileID: 114863553938316626}
+  - component: {fileID: 114724241141254328}
+  m_Layer: 0
+  m_Name: Deget1_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4351471525479202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869430969542298}
+  m_LocalRotation: {x: -2.1175816e-22, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.03872688, y: 0.000000057220458, z: 0.000000019073486}
+  m_LocalScale: {x: 0.9999999, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4395446800916726}
+  m_Father: {fileID: 4974668945582438}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114863553938316626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869430969542298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9890907dd3c45db9cac9617433ec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 479
+    y: 267
+    width: 147
+    height: 79
+  nodes:
+  - name: source
+    text: Mapping Source
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 287
+      width: 147
+      height: 18
+    updated: 1
+  - name: result
+    text: Mapping Result
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 305
+      width: 147
+      height: 18
+    updated: 1
+  - name: MappingInput
+    text: MappingInput
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: MappingInput
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 323
+      width: 147
+      height: 18
+    updated: 1
+  sourceName: Mapping Source
+  resultName: Mapping Result
+  mapCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 84.28081
+      value: 83.94468
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114724241141254328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869430969542298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec3d5d019600f49bb85cd2a425ad7b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windowRect:
+    serializedVersion: 2
+    x: 802
+    y: 366
+    width: 151
+    height: 115
+  nodes:
+  - name: ReactingTarget
+    text: Deget1_1
+    nodeType: 0
+    objectTarget: {fileID: 0}
+    tooltip: Reacting Target
+    rect:
+      serializedVersion: 2
+      x: 802
+      y: 386
+      width: 151
+      height: 18
+    updated: 1
+  - name: setAngle
+    text: Set Angle
+    nodeType: 2
+    objectTarget: {fileID: 114863553938316626}
+    tooltip: Input<float>
+    rect:
+      serializedVersion: 2
+      x: 802
+      y: 404
+      width: 151
+      height: 18
+    updated: 1
+  - name: getAngle
+    text: Get Angle
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Output<float>
+    rect:
+      serializedVersion: 2
+      x: 802
+      y: 422
+      width: 151
+      height: 18
+    updated: 1
+  - name: rotateDrag
+    text: Rotate by drag
+    nodeType: 2
+    objectTarget: {fileID: 0}
+    tooltip: Input<DragData>
+    rect:
+      serializedVersion: 2
+      x: 802
+      y: 440
+      width: 151
+      height: 18
+    updated: 1
+  - name: RotationAxisReactor
+    text: RotationAxisReactor
+    nodeType: 1
+    objectTarget: {fileID: 0}
+    tooltip: RotationAxisReactor
+    rect:
+      serializedVersion: 2
+      x: 802
+      y: 458
+      width: 151
+      height: 18
+    updated: 1
+  upAxis: 2
+  forwardAxis: 1
+  invert: 0
