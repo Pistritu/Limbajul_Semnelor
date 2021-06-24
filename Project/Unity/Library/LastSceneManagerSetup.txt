@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scena_HM10_Mana.unity
+- path: Assets/Scena_Serial_Mana_2021.unity
   isLoaded: 1
   isActive: 1

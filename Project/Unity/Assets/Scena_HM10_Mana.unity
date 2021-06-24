@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.8018838, g: 0.8980802, b: 0.95754224, a: 1}
+  m_IndirectSpecularColor: {r: 0.80686253, g: 0.9003265, b: 0.9563895, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 116711549}
   - component: {fileID: 116711548}
   m_Layer: 0
-  m_Name: 1
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -349,8 +349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 618
-    y: 446
+    x: 608
+    y: 319
     width: 116
     height: 79
   nodes:
@@ -361,8 +361,8 @@ MonoBehaviour:
     tooltip: AnalogInput
     rect:
       serializedVersion: 2
-      x: 618
-      y: 466
+      x: 608
+      y: 339
       width: 116
       height: 18
     updated: 1
@@ -373,8 +373,8 @@ MonoBehaviour:
     tooltip: Input<float>
     rect:
       serializedVersion: 2
-      x: 618
-      y: 484
+      x: 608
+      y: 357
       width: 116
       height: 18
     updated: 1
@@ -385,8 +385,8 @@ MonoBehaviour:
     tooltip: InputFilter
     rect:
       serializedVersion: 2
-      x: 618
-      y: 502
+      x: 608
+      y: 375
       width: 116
       height: 18
     updated: 1
@@ -395,7 +395,7 @@ MonoBehaviour:
   minValue: 0.0701
   maxValue: 0.101
   smooth: 1
-  sensitivity: 0.917
+  sensitivity: 0.5
 --- !u!114 &116711549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
     height: 133
   nodes:
   - name: gameObject
-    text: 1
+    text: 2
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: GameObject
@@ -440,7 +440,7 @@ MonoBehaviour:
       height: 18
     updated: 1
   - name: pin
-    text: 'Pin: A3'
+    text: 'Pin: A2'
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Arduino Analog Pin
@@ -488,7 +488,7 @@ MonoBehaviour:
       height: 18
     updated: 1
   id: 2
-  pin: 3
+  pin: 2
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 117976351}
   - component: {fileID: 117976350}
   m_Layer: 0
-  m_Name: 4
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,10 +581,10 @@ MonoBehaviour:
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.15
-  maxValue: 0.25
+  minValue: 0.57
+  maxValue: 0.58
   smooth: 1
-  sensitivity: 0.5
+  sensitivity: 1
 --- !u!114 &117976351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
     height: 133
   nodes:
   - name: gameObject
-    text: 4
+    text: 5
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: GameObject
@@ -629,7 +629,7 @@ MonoBehaviour:
       height: 18
     updated: 1
   - name: pin
-    text: 'Pin: A0'
+    text: 'Pin: A5'
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Arduino Analog Pin
@@ -677,7 +677,7 @@ MonoBehaviour:
       height: 18
     updated: 1
   id: 5
-  pin: 0
+  pin: 5
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -860,7 +860,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -911,10 +911,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274595492}
-  - component: {fileID: 274595494}
   - component: {fileID: 274595493}
+  - component: {fileID: 274595494}
   m_Layer: 0
-  m_Name: 2
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -948,20 +948,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 431
-    y: 475.2024
+    x: 523
+    y: 503.2024
     width: 105
     height: 133
   nodes:
   - name: gameObject
-    text: 2
+    text: 3
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: GameObject
     rect:
       serializedVersion: 2
-      x: 431
-      y: 495.2024
+      x: 523
+      y: 523.2024
       width: 105
       height: 18
     updated: 1
@@ -972,20 +972,20 @@ MonoBehaviour:
     tooltip: Controller ID
     rect:
       serializedVersion: 2
-      x: 431
-      y: 513.2024
+      x: 523
+      y: 541.2024
       width: 105
       height: 18
     updated: 1
   - name: pin
-    text: 'Pin: A2'
+    text: 'Pin: A3'
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Arduino Analog Pin
     rect:
       serializedVersion: 2
-      x: 431
-      y: 531.2024
+      x: 523
+      y: 559.2024
       width: 105
       height: 18
     updated: 1
@@ -996,8 +996,8 @@ MonoBehaviour:
     tooltip: ArdunityApp
     rect:
       serializedVersion: 2
-      x: 431
-      y: 549.2024
+      x: 523
+      y: 577.2024
       width: 105
       height: 18
     updated: 1
@@ -1008,8 +1008,8 @@ MonoBehaviour:
     tooltip: Input<float>
     rect:
       serializedVersion: 2
-      x: 431
-      y: 567.2024
+      x: 523
+      y: 595.2024
       width: 105
       height: 18
     updated: 1
@@ -1020,13 +1020,13 @@ MonoBehaviour:
     tooltip: AnalogInput
     rect:
       serializedVersion: 2
-      x: 431
-      y: 585.2024
+      x: 523
+      y: 613.2024
       width: 105
       height: 18
     updated: 1
   id: 3
-  pin: 2
+  pin: 3
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1044,8 +1044,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 614
-    y: 709.2024
+    x: 666
+    y: 619.2024
     width: 116
     height: 79
   nodes:
@@ -1056,8 +1056,8 @@ MonoBehaviour:
     tooltip: AnalogInput
     rect:
       serializedVersion: 2
-      x: 614
-      y: 729.2024
+      x: 666
+      y: 639.2024
       width: 116
       height: 18
     updated: 1
@@ -1068,8 +1068,8 @@ MonoBehaviour:
     tooltip: Input<float>
     rect:
       serializedVersion: 2
-      x: 614
-      y: 747.2024
+      x: 666
+      y: 657.2024
       width: 116
       height: 18
     updated: 1
@@ -1080,14 +1080,14 @@ MonoBehaviour:
     tooltip: InputFilter
     rect:
       serializedVersion: 2
-      x: 614
-      y: 765.2024
+      x: 666
+      y: 675.2024
       width: 116
       height: 18
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.13
+  minValue: 0.12
   maxValue: 0.25
   smooth: 1
   sensitivity: 0.5
@@ -1468,7 +1468,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1540,7 +1540,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1612,7 +1612,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1654,156 +1654,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436447528}
   m_CullTransparentMesh: 0
---- !u!1 &486534037
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 486534038}
-  - component: {fileID: 486534040}
-  - component: {fileID: 486534039}
-  m_Layer: 5
-  m_Name: ToggleLED
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &486534038
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486534037}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1728059703}
-  - {fileID: 586535903}
-  m_Father: {fileID: 1922597639}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 1}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -124.90039, y: -157}
-  m_SizeDelta: {x: 200, y: 60}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &486534039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486534037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33bfe5dfa06d64d97a4a9066ff1973bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  windowRect:
-    serializedVersion: 2
-    x: 32
-    y: 423
-    width: 118
-    height: 97
-  nodes:
-  - name: ReactingTarget
-    text: ToggleLED
-    nodeType: 0
-    objectTarget: {fileID: 0}
-    tooltip: Reacting Target
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 443
-      width: 118
-      height: 18
-    updated: 1
-  - name: setValue
-    text: Set Value
-    nodeType: 2
-    objectTarget: {fileID: 0}
-    tooltip: Input<bool>
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 461
-      width: 118
-      height: 18
-    updated: 1
-  - name: getValue
-    text: Get Value
-    nodeType: 2
-    objectTarget: {fileID: 2067268410}
-    tooltip: Output<bool>
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 479
-      width: 118
-      height: 18
-    updated: 1
-  - name: ToggleReactor
-    text: ToggleReactor
-    nodeType: 1
-    objectTarget: {fileID: 0}
-    tooltip: ToggleReactor
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 497
-      width: 118
-      height: 18
-    updated: 1
---- !u!114 &486534040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486534037}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2109663825, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1728059704}
-  toggleTransition: 1
-  graphic: {fileID: 1115613376}
-  m_Group: {fileID: 0}
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_IsOn: 0
 --- !u!1 &491474300
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,7 +1767,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1958,83 +1808,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517849101}
-  m_CullTransparentMesh: 0
---- !u!1 &586535902
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 586535903}
-  - component: {fileID: 586535905}
-  - component: {fileID: 586535904}
-  m_Layer: 5
-  m_Name: Label
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &586535903
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586535902}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 486534038}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 124.3, y: -22.5}
-  m_SizeDelta: {x: 150.2, y: 43.8}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &586535904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586535902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 54
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Test LED
---- !u!222 &586535905
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586535902}
   m_CullTransparentMesh: 0
 --- !u!1 &618028062
 GameObject:
@@ -2202,10 +1975,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 646877847}
-  - component: {fileID: 646877849}
   - component: {fileID: 646877848}
+  - component: {fileID: 646877849}
   m_Layer: 0
-  m_Name: 3
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2245,7 +2018,7 @@ MonoBehaviour:
     height: 133
   nodes:
   - name: gameObject
-    text: 3
+    text: 4
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: GameObject
@@ -2269,7 +2042,7 @@ MonoBehaviour:
       height: 18
     updated: 1
   - name: pin
-    text: 'Pin: A1'
+    text: 'Pin: A4'
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Arduino Analog Pin
@@ -2317,7 +2090,7 @@ MonoBehaviour:
       height: 18
     updated: 1
   id: 4
-  pin: 1
+  pin: 4
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2412,7 +2185,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -3117,26 +2890,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mana: {fileID: 4418621758307458}
-  Deget0: {fileID: 4723867862161912}
-  Deget1: {fileID: 4974668263883460}
-  Deget2: {fileID: 4478969816718474}
-  Deget3: {fileID: 4661848441053956}
-  Deget4: {fileID: 4848669420127766}
+  Deget1: {fileID: 4723867862161912}
+  Deget2: {fileID: 4974668263883460}
+  Deget3: {fileID: 4478969816718474}
+  Deget4: {fileID: 4661848441053956}
+  Deget5: {fileID: 4848669420127766}
   R_Mana_X: 0
   R_Mana_Y: 0
   R_Mana_Z: 0
-  R_Deget0: 0
   R_Deget1: 0
   R_Deget2: 0
   R_Deget3: 0
   R_Deget4: 0
+  R_Deget5: 0
   Pozitie_Mana: 0
   mare: 0
   aratator: 0
   mijlociu: 0
   inelar: 0
   mic: 0
-  TEST: 0
   _cheama: {fileID: 8300000, guid: 6b53dd78a8926624d8ceaf2487b65c66, type: 3}
   _politia: {fileID: 8300000, guid: b70da24099c222f4f9c91b6707bd24a3, type: 3}
   _pompierii: {fileID: 8300000, guid: d342c86aa33e2f3499cbd7e0542c804e, type: 3}
@@ -3177,8 +2949,10 @@ MonoBehaviour:
   img_maSimtBine: {fileID: 177356788}
   img_euRoxana: {fileID: 704243959}
   img_catCosta: {fileID: 177356788}
-  timp_difuzare: 2
-  timer: 0
+  TimpPanaLaDifuzare: 2
+  timerCresteLa_1s: 0
+  log: 0
+  TEST: 0
 --- !u!1 &928677434
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,15 +2979,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928677434}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1389280112, guid: f6f400c45f7404b8785954fd9df78bec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 193
-    y: 20
+    x: 205
+    y: 18
     width: 126
     height: 79
   nodes:
@@ -3224,8 +2998,8 @@ MonoBehaviour:
     tooltip: Arduino Stream Class
     rect:
       serializedVersion: 2
-      x: 193
-      y: 40
+      x: 205
+      y: 38
       width: 126
       height: 18
     updated: 1
@@ -3236,8 +3010,8 @@ MonoBehaviour:
     tooltip: CommSocket
     rect:
       serializedVersion: 2
-      x: 193
-      y: 58
+      x: 205
+      y: 56
       width: 126
       height: 18
     updated: 1
@@ -3248,8 +3022,8 @@ MonoBehaviour:
     tooltip: ArdunityApp
     rect:
       serializedVersion: 2
-      x: 193
-      y: 76
+      x: 205
+      y: 74
       width: 126
       height: 18
     updated: 1
@@ -3266,8 +3040,8 @@ MonoBehaviour:
   tcpPort: 0
   pwmResolution: 1024
   adcResolution: 4096
-  autoConnect: 1
-  debug: 1
+  autoConnect: 0
+  debug: 0
   OnConnected:
     m_PersistentCalls:
       m_Calls: []
@@ -3294,8 +3068,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 13
-    y: 109
+    x: 18
+    y: 17
     width: 113
     height: 61
   nodes:
@@ -3306,8 +3080,8 @@ MonoBehaviour:
     tooltip: CommSocket
     rect:
       serializedVersion: 2
-      x: 13
-      y: 129
+      x: 18
+      y: 37
       width: 113
       height: 18
     updated: 1
@@ -3318,8 +3092,8 @@ MonoBehaviour:
     tooltip: HM10
     rect:
       serializedVersion: 2
-      x: 13
-      y: 147
+      x: 18
+      y: 55
       width: 113
       height: 18
     updated: 1
@@ -3366,7 +3140,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2067268411}
   - {fileID: 2040320113}
   - {fileID: 1181458858}
   m_Father: {fileID: 0}
@@ -3386,8 +3159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 4
-    y: 12
+    x: 16
+    y: 118
     width: 113
     height: 79
   nodes:
@@ -3398,8 +3171,8 @@ MonoBehaviour:
     tooltip: Serial Baudrate Speed
     rect:
       serializedVersion: 2
-      x: 4
-      y: 32
+      x: 16
+      y: 138
       width: 113
       height: 18
     updated: 1
@@ -3410,8 +3183,8 @@ MonoBehaviour:
     tooltip: CommSocket
     rect:
       serializedVersion: 2
-      x: 4
-      y: 50
+      x: 16
+      y: 156
       width: 113
       height: 18
     updated: 1
@@ -3422,18 +3195,18 @@ MonoBehaviour:
     tooltip: CommSerial
     rect:
       serializedVersion: 2
-      x: 4
-      y: 68
+      x: 16
+      y: 174
       width: 113
       height: 18
     updated: 1
   foundDevices:
-  - name: COM3
-    address: //./COM3
+  - name: COM4
+    address: //./COM4
     args: []
   device:
-    name: COM3
-    address: //./COM3
+    name: COM4
+    address: //./COM4
     args: []
   OnOpen:
     m_PersistentCalls:
@@ -3491,7 +3264,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -3677,7 +3450,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -3826,7 +3599,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -4017,78 +3790,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108296440}
   m_CullTransparentMesh: 0
---- !u!1 &1115613374
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1115613375}
-  - component: {fileID: 1115613377}
-  - component: {fileID: 1115613376}
-  m_Layer: 5
-  m_Name: Checkmark
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1115613375
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115613374}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1728059703}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 22.2, y: -17}
-  m_SizeDelta: {x: 33, y: 33}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1115613376
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115613374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.11909163, g: 0.8773585, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &1115613377
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115613374}
-  m_CullTransparentMesh: 0
 --- !u!1 &1131191788
 GameObject:
   m_ObjectHideFlags: 0
@@ -4119,7 +3820,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -4404,7 +4105,7 @@ Transform:
   - {fileID: 646877847}
   - {fileID: 117976349}
   m_Father: {fileID: 928677437}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1189913762
 GameObject:
@@ -4436,7 +4137,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -4585,7 +4286,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -4771,7 +4472,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -5057,7 +4758,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -5108,10 +4809,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1539145535}
-  - component: {fileID: 1539145533}
   - component: {fileID: 1539145534}
+  - component: {fileID: 1539145533}
   m_Layer: 0
-  m_Name: 0
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5174,10 +4875,10 @@ MonoBehaviour:
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.585
-  maxValue: 0.6001
+  minValue: 0.18
+  maxValue: 0.27
   smooth: 1
-  sensitivity: 1
+  sensitivity: 0.5
 --- !u!114 &1539145534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5192,20 +4893,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 435
-    y: 25
+    x: 416
+    y: 14
     width: 105
     height: 133
   nodes:
   - name: gameObject
-    text: 0
+    text: 1
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: GameObject
     rect:
       serializedVersion: 2
-      x: 435
-      y: 45
+      x: 416
+      y: 34
       width: 105
       height: 18
     updated: 1
@@ -5216,20 +4917,20 @@ MonoBehaviour:
     tooltip: Controller ID
     rect:
       serializedVersion: 2
-      x: 435
-      y: 63
+      x: 416
+      y: 52
       width: 105
       height: 18
     updated: 1
   - name: pin
-    text: 'Pin: A4'
+    text: 'Pin: A1'
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Arduino Analog Pin
     rect:
       serializedVersion: 2
-      x: 435
-      y: 81
+      x: 416
+      y: 70
       width: 105
       height: 18
     updated: 1
@@ -5240,8 +4941,8 @@ MonoBehaviour:
     tooltip: ArdunityApp
     rect:
       serializedVersion: 2
-      x: 435
-      y: 99
+      x: 416
+      y: 88
       width: 105
       height: 18
     updated: 1
@@ -5252,8 +4953,8 @@ MonoBehaviour:
     tooltip: Input<float>
     rect:
       serializedVersion: 2
-      x: 435
-      y: 117
+      x: 416
+      y: 106
       width: 105
       height: 18
     updated: 1
@@ -5264,13 +4965,13 @@ MonoBehaviour:
     tooltip: AnalogInput
     rect:
       serializedVersion: 2
-      x: 435
-      y: 135
+      x: 416
+      y: 124
       width: 105
       height: 18
     updated: 1
   id: 1
-  pin: 4
+  pin: 1
   OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5395,7 +5096,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -5658,7 +5359,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -5765,7 +5466,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -5922,79 +5623,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717932629}
-  m_CullTransparentMesh: 0
---- !u!1 &1728059702
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1728059703}
-  - component: {fileID: 1728059705}
-  - component: {fileID: 1728059704}
-  m_Layer: 5
-  m_Name: Background
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1728059703
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728059702}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1115613375}
-  m_Father: {fileID: 486534038}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 23, y: -22.9}
-  m_SizeDelta: {x: 43.3, y: 38.3}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1728059704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728059702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
---- !u!222 &1728059705
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728059702}
   m_CullTransparentMesh: 0
 --- !u!1 &1822270300
 GameObject:
@@ -6327,7 +5955,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1922597639}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -6402,7 +6030,6 @@ RectTransform:
   - {fileID: 2045480307}
   - {fileID: 1590647945}
   - {fileID: 339997412}
-  - {fileID: 486534038}
   - {fileID: 982923269}
   - {fileID: 1483213227}
   - {fileID: 1022075948}
@@ -6740,7 +6367,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 928677437}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2040320114
 MonoBehaviour:
@@ -6756,8 +6383,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 228
-    y: 207
+    x: 250
+    y: 167
     width: 96
     height: 133
   nodes:
@@ -6768,8 +6395,8 @@ MonoBehaviour:
     tooltip: GameObject
     rect:
       serializedVersion: 2
-      x: 228
-      y: 227
+      x: 250
+      y: 187
       width: 96
       height: 18
     updated: 1
@@ -6780,8 +6407,8 @@ MonoBehaviour:
     tooltip: Controller ID
     rect:
       serializedVersion: 2
-      x: 228
-      y: 245
+      x: 250
+      y: 205
       width: 96
       height: 18
     updated: 1
@@ -6792,8 +6419,8 @@ MonoBehaviour:
     tooltip: Model Name
     rect:
       serializedVersion: 2
-      x: 228
-      y: 263
+      x: 250
+      y: 223
       width: 96
       height: 18
     updated: 1
@@ -6804,7 +6431,7 @@ MonoBehaviour:
     tooltip: Secondary
     rect:
       serializedVersion: 2
-      x: 228
+      x: 250
       y: 0
       width: 96
       height: 0
@@ -6816,8 +6443,8 @@ MonoBehaviour:
     tooltip: ArdunityApp
     rect:
       serializedVersion: 2
-      x: 228
-      y: 281
+      x: 250
+      y: 241
       width: 96
       height: 18
     updated: 1
@@ -6828,8 +6455,8 @@ MonoBehaviour:
     tooltip: 
     rect:
       serializedVersion: 2
-      x: 228
-      y: 299
+      x: 250
+      y: 259
       width: 96
       height: 18
     updated: 1
@@ -6840,8 +6467,8 @@ MonoBehaviour:
     tooltip: MPUSeries
     rect:
       serializedVersion: 2
-      x: 228
-      y: 317
+      x: 250
+      y: 277
       width: 96
       height: 18
     updated: 1
@@ -7069,145 +6696,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 2
   m_TargetDisplay: 0
---- !u!1 &2067268409
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2067268411}
-  - component: {fileID: 2067268410}
-  m_Layer: 0
-  m_Name: LED
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2067268410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067268409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06fcc68ae4d3d4077b1b0a5b9bd0e781, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  windowRect:
-    serializedVersion: 2
-    x: 210
-    y: 368
-    width: 124
-    height: 151
-  nodes:
-  - name: gameObject
-    text: LED
-    nodeType: 0
-    objectTarget: {fileID: 0}
-    tooltip: GameObject
-    rect:
-      serializedVersion: 2
-      x: 210
-      y: 388
-      width: 124
-      height: 18
-    updated: 1
-  - name: id
-    text: 'ID: 6'
-    nodeType: 0
-    objectTarget: {fileID: 0}
-    tooltip: Controller ID
-    rect:
-      serializedVersion: 2
-      x: 210
-      y: 406
-      width: 124
-      height: 18
-    updated: 1
-  - name: pin
-    text: 'Pin: 13'
-    nodeType: 0
-    objectTarget: {fileID: 0}
-    tooltip: Arduino Digital Pin
-    rect:
-      serializedVersion: 2
-      x: 210
-      y: 424
-      width: 124
-      height: 18
-    updated: 1
-  - name: owner
-    text: Owner
-    nodeType: 2
-    objectTarget: {fileID: 928677435}
-    tooltip: ArdunityApp
-    rect:
-      serializedVersion: 2
-      x: 210
-      y: 442
-      width: 124
-      height: 18
-    updated: 1
-  - name: digitalValue
-    text: Value(digital)
-    nodeType: 1
-    objectTarget: {fileID: 0}
-    tooltip: Output<bool>
-    rect:
-      serializedVersion: 2
-      x: 210
-      y: 460
-      width: 124
-      height: 18
-    updated: 1
-  - name: analogValue
-    text: Value(analog)
-    nodeType: 1
-    objectTarget: {fileID: 0}
-    tooltip: Output<float>
-    rect:
-      serializedVersion: 2
-      x: 210
-      y: 478
-      width: 124
-      height: 18
-    updated: 1
-  - name: DigitalOutput
-    text: DigitalOutput
-    nodeType: 1
-    objectTarget: {fileID: 0}
-    tooltip: DigitalOutput
-    rect:
-      serializedVersion: 2
-      x: 210
-      y: 496
-      width: 124
-      height: 18
-    updated: 1
-  id: 6
-  pin: 13
-  defaultValue: 0
-  resetOnStop: 1
-  Value: 0
---- !u!4 &2067268411
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067268409}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 928677437}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2070041125
 GameObject:
   m_ObjectHideFlags: 0
@@ -7367,7 +6855,7 @@ GameObject:
   - component: {fileID: 4885674250730554}
   - component: {fileID: 135301462948155396}
   m_Layer: 0
-  m_Name: Deget2_Final
+  m_Name: Deget3_Final
   m_TagString: mijlociu
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7385,7 +6873,7 @@ GameObject:
   - component: {fileID: 114683712798079226}
   - component: {fileID: 114141835377268996}
   m_Layer: 0
-  m_Name: Deget2_2
+  m_Name: Deget3_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7403,7 +6891,7 @@ GameObject:
   - component: {fileID: 114025039872575804}
   - component: {fileID: 114953543177103416}
   m_Layer: 0
-  m_Name: Deget1_2
+  m_Name: Deget2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7442,8 +6930,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   windowRect:
     serializedVersion: 2
-    x: 9
-    y: 251
+    x: 24
+    y: 291
     width: 127
     height: 79
   nodes:
@@ -7454,8 +6942,8 @@ MonoBehaviour:
     tooltip: Reacting Target
     rect:
       serializedVersion: 2
-      x: 9
-      y: 271
+      x: 24
+      y: 311
       width: 127
       height: 18
     updated: 1
@@ -7466,8 +6954,8 @@ MonoBehaviour:
     tooltip: Input<Quaternion>
     rect:
       serializedVersion: 2
-      x: 9
-      y: 289
+      x: 24
+      y: 329
       width: 127
       height: 18
     updated: 1
@@ -7478,8 +6966,8 @@ MonoBehaviour:
     tooltip: RotationReactor
     rect:
       serializedVersion: 2
-      x: 9
-      y: 307
+      x: 24
+      y: 347
       width: 127
       height: 18
     updated: 1
@@ -7495,7 +6983,7 @@ GameObject:
   - component: {fileID: 4334784188221002}
   - component: {fileID: 135960809722366778}
   m_Layer: 0
-  m_Name: Deget3_Final
+  m_Name: Deget4_Final
   m_TagString: inelar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7513,7 +7001,7 @@ GameObject:
   - component: {fileID: 114420262958828984}
   - component: {fileID: 114202457935311804}
   m_Layer: 0
-  m_Name: Deget4_1
+  m_Name: Deget5_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7530,7 +7018,7 @@ GameObject:
   - component: {fileID: 4387458988740496}
   - component: {fileID: 135908122998774056}
   m_Layer: 0
-  m_Name: Deget0_Final
+  m_Name: Deget1_Final
   m_TagString: mare
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7548,7 +7036,7 @@ GameObject:
   - component: {fileID: 114469155782662400}
   - component: {fileID: 114588482872846398}
   m_Layer: 0
-  m_Name: Deget3
+  m_Name: Deget4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7582,7 +7070,7 @@ GameObject:
   - component: {fileID: 4764677367356244}
   - component: {fileID: 135502093405830352}
   m_Layer: 0
-  m_Name: Deget4_Final
+  m_Name: Deget5_Final
   m_TagString: mic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7600,7 +7088,7 @@ GameObject:
   - component: {fileID: 114191685817314624}
   - component: {fileID: 114487395069298570}
   m_Layer: 0
-  m_Name: Deget2
+  m_Name: Deget3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7618,7 +7106,7 @@ GameObject:
   - component: {fileID: 114694290478873252}
   - component: {fileID: 114396222390202866}
   m_Layer: 0
-  m_Name: Deget2_1
+  m_Name: Deget3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7652,7 +7140,7 @@ GameObject:
   - component: {fileID: 114988405628601316}
   - component: {fileID: 114363446536203680}
   m_Layer: 0
-  m_Name: Deget4_2
+  m_Name: Deget5_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7667,7 +7155,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4408540862572186}
-  - component: {fileID: 1511541005907947}
   m_Layer: 0
   m_Name: Rotire1
   m_TagString: Untagged
@@ -7675,62 +7162,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1511541005907947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1511541005907946}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35c3243cb71a14fddac9160a20d2a48e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  windowRect:
-    serializedVersion: 2
-    x: 9
-    y: 198
-    width: 127
-    height: 79
-  nodes:
-  - name: ReactingTarget
-    text: Rotire1
-    nodeType: 0
-    objectTarget: {fileID: 0}
-    tooltip: Reacting Target
-    rect:
-      serializedVersion: 2
-      x: 9
-      y: 218
-      width: 127
-      height: 18
-    updated: 1
-  - name: rotation
-    text: Rotation
-    nodeType: 2
-    objectTarget: {fileID: 2040320114}
-    tooltip: Input<Quaternion>
-    rect:
-      serializedVersion: 2
-      x: 9
-      y: 236
-      width: 127
-      height: 18
-    updated: 1
-  - name: RotationReactor
-    text: RotationReactor
-    nodeType: 1
-    objectTarget: {fileID: 0}
-    tooltip: RotationReactor
-    rect:
-      serializedVersion: 2
-      x: 9
-      y: 254
-      width: 127
-      height: 18
-    updated: 1
-  smoothFollow: 1
 --- !u!1 &1543440738407574
 GameObject:
   m_ObjectHideFlags: 0
@@ -7743,7 +7174,7 @@ GameObject:
   - component: {fileID: 114889030707277090}
   - component: {fileID: 114030648070286930}
   m_Layer: 0
-  m_Name: Deget0
+  m_Name: Deget1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7777,7 +7208,7 @@ GameObject:
   - component: {fileID: 114006409608566540}
   - component: {fileID: 114522946017330068}
   m_Layer: 0
-  m_Name: Deget3_1
+  m_Name: Deget4_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7831,7 +7262,7 @@ GameObject:
   - component: {fileID: 114208700527029396}
   - component: {fileID: 114371494165468998}
   m_Layer: 0
-  m_Name: Deget1
+  m_Name: Deget2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7849,7 +7280,7 @@ GameObject:
   - component: {fileID: 114453025079591142}
   - component: {fileID: 114133308989370006}
   m_Layer: 0
-  m_Name: Deget0_2
+  m_Name: Deget1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7867,7 +7298,7 @@ GameObject:
   - component: {fileID: 114865419538308848}
   - component: {fileID: 114832531858441276}
   m_Layer: 0
-  m_Name: Deget4
+  m_Name: Deget5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7918,7 +7349,7 @@ GameObject:
   - component: {fileID: 114146096848020490}
   - component: {fileID: 114573661208396670}
   m_Layer: 0
-  m_Name: Deget0_1
+  m_Name: Deget1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7936,7 +7367,7 @@ GameObject:
   - component: {fileID: 114729382936368734}
   - component: {fileID: 114405048393531074}
   m_Layer: 0
-  m_Name: Deget3_2
+  m_Name: Deget4_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7953,7 +7384,7 @@ GameObject:
   - component: {fileID: 4134083572919870}
   - component: {fileID: 135974630899082886}
   m_Layer: 0
-  m_Name: Deget1_Final
+  m_Name: Deget2_Final
   m_TagString: aratator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7987,7 +7418,7 @@ GameObject:
   - component: {fileID: 114863554640688880}
   - component: {fileID: 114724239416173338}
   m_Layer: 0
-  m_Name: Deget1_1
+  m_Name: Deget2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8848,7 +8279,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget0_2
+    text: Deget1_2
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -8930,7 +8361,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget2_2
+    text: Deget3_2
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -9183,7 +8614,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget4_1
+    text: Deget5_1
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -9346,7 +8777,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget4_2
+    text: Deget5_2
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -9428,7 +8859,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget1
+    text: Deget2
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -9510,7 +8941,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget2_1
+    text: Deget3_1
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -9592,7 +9023,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget3_2
+    text: Deget4_2
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -9926,7 +9357,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget2
+    text: Deget3
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -10008,7 +9439,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget3_1
+    text: Deget4_1
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -10090,7 +9521,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget0_1
+    text: Deget1_1
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -10172,7 +9603,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget3
+    text: Deget4
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -10416,7 +9847,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget1_1
+    text: Deget2_1
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -10579,7 +10010,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget4
+    text: Deget5
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -10823,7 +10254,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget0
+    text: Deget1
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
@@ -10905,7 +10336,7 @@ MonoBehaviour:
     height: 115
   nodes:
   - name: ReactingTarget
-    text: Deget1_2
+    text: Deget2_2
     nodeType: 0
     objectTarget: {fileID: 0}
     tooltip: Reacting Target
