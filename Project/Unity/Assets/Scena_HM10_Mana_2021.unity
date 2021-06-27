@@ -392,8 +392,8 @@ MonoBehaviour:
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.0701
-  maxValue: 0.101
+  minValue: 0.158
+  maxValue: 0.22
   smooth: 1
   sensitivity: 0.5
 --- !u!114 &116711549
@@ -581,8 +581,8 @@ MonoBehaviour:
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.57
-  maxValue: 0.58
+  minValue: 0.58
+  maxValue: 0.591
   smooth: 1
   sensitivity: 1
 --- !u!114 &117976351
@@ -1087,8 +1087,8 @@ MonoBehaviour:
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.12
-  maxValue: 0.25
+  minValue: 0.17
+  maxValue: 0.28
   smooth: 1
   sensitivity: 0.5
 --- !u!1 &307010311
@@ -2151,8 +2151,8 @@ MonoBehaviour:
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.13
-  maxValue: 0.27
+  minValue: 0.576
+  maxValue: 0.589
   smooth: 1
   sensitivity: 0.5
 --- !u!1 &704243959
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dffddb2d636ed604ba45e96504b05360, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 190c3a7126390ee4b8dc02fbcba779f4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2927,7 +2927,7 @@ MonoBehaviour:
   _nevoieMedic: {fileID: 8300000, guid: 1ae8f44f2daf64547991d220225a7017, type: 3}
   _nevoieAjutor: {fileID: 8300000, guid: c5a90249b42e6ab438673f0f43c32b7d, type: 3}
   _maSimtBine: {fileID: 8300000, guid: 0fc3b0b7a3cfa2640ac8ed02b4795224, type: 3}
-  _euRoxana: {fileID: 8300000, guid: a3b2b6cc96e125145b200972fa2ede88, type: 3}
+  _euLaurentiu: {fileID: 8300000, guid: a3b2b6cc96e125145b200972fa2ede88, type: 3}
   _catCosta: {fileID: 8300000, guid: 7f8f46161de22014e987a9009892355a, type: 3}
   img_cheama: {fileID: 177356788}
   img_politia: {fileID: 1131191788}
@@ -2947,7 +2947,7 @@ MonoBehaviour:
   img_nevoieMedic: {fileID: 347185017}
   img_nevoieAjutor: {fileID: 436447528}
   img_maSimtBine: {fileID: 177356788}
-  img_euRoxana: {fileID: 704243959}
+  img_euLaurentiu: {fileID: 704243959}
   img_catCosta: {fileID: 177356788}
   TimpPanaLaDifuzare: 2
   timerCresteLa_1s: 0
@@ -2964,7 +2964,6 @@ GameObject:
   - component: {fileID: 928677437}
   - component: {fileID: 928677435}
   - component: {fileID: 928677436}
-  - component: {fileID: 928677438}
   m_Layer: 0
   m_Name: Ardunity
   m_TagString: Untagged
@@ -3145,95 +3144,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &928677438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928677434}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 919922910c30f4f2da9ed21286f8cdbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  windowRect:
-    serializedVersion: 2
-    x: 16
-    y: 118
-    width: 113
-    height: 79
-  nodes:
-  - name: baudrate
-    text: 115200 bps
-    nodeType: 0
-    objectTarget: {fileID: 0}
-    tooltip: Serial Baudrate Speed
-    rect:
-      serializedVersion: 2
-      x: 16
-      y: 138
-      width: 113
-      height: 18
-    updated: 1
-  - name: CommSocket
-    text: CommSocket
-    nodeType: 1
-    objectTarget: {fileID: 0}
-    tooltip: CommSocket
-    rect:
-      serializedVersion: 2
-      x: 16
-      y: 156
-      width: 113
-      height: 18
-    updated: 1
-  - name: CommSerial
-    text: CommSerial
-    nodeType: 1
-    objectTarget: {fileID: 0}
-    tooltip: CommSerial
-    rect:
-      serializedVersion: 2
-      x: 16
-      y: 174
-      width: 113
-      height: 18
-    updated: 1
-  foundDevices:
-  - name: COM4
-    address: //./COM4
-    args: []
-  device:
-    name: COM4
-    address: //./COM4
-    args: []
-  OnOpen:
-    m_PersistentCalls:
-      m_Calls: []
-  OnClose:
-    m_PersistentCalls:
-      m_Calls: []
-  OnOpenFailed:
-    m_PersistentCalls:
-      m_Calls: []
-  OnErrorClosed:
-    m_PersistentCalls:
-      m_Calls: []
-  OnStartSearch:
-    m_PersistentCalls:
-      m_Calls: []
-  OnStopSearch:
-    m_PersistentCalls:
-      m_Calls: []
-  OnWriteCompleted:
-    m_PersistentCalls:
-      m_Calls: []
-  OnFoundDevice:
-    m_PersistentCalls:
-      m_Calls: []
-  baudrate: 115200
-  dtrReset: 1
 --- !u!1 &932729838
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,8 +4785,8 @@ MonoBehaviour:
     updated: 1
   invert: 1
   amplify: 1
-  minValue: 0.18
-  maxValue: 0.27
+  minValue: 0.195
+  maxValue: 0.223
   smooth: 1
   sensitivity: 0.5
 --- !u!114 &1539145534

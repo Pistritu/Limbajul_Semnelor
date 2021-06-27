@@ -1,10 +1,10 @@
 Android
 PlayerPath?
-C:/Users/larry/Desktop/HM10_Hand_Dev_24_06_2021.apk
+C:/Users/larry/Desktop/apkHM10_LimbajulSemnelor.apk
 SceneListBegin?
-Assets/Scena_HM10_Mana.unity
+Assets/Scena_Serial_Mana_2021.unity
 SceneListEnd?
-73aa36299f8949bb8852c00d27885c20 Assembly-CSharp.dll:.Configurare_v2
+25059cd3858a686ae2073e6532dfb32e Assembly-CSharp.dll:.Configurare_v2
 de5244c75cb9a6e938a03f6bd0929a7d Assembly-CSharp.dll:Ardunity.DigitalInput
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 d7993abd9cd8ab56b246795c5175c1c7 Assembly-CSharp.dll:Ardunity.MoveAxisReactor

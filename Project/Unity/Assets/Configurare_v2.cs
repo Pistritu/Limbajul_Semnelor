@@ -55,7 +55,7 @@ public class Configurare_v2 : MonoBehaviour
 	public AudioClip _nevoieMedic;
 	public AudioClip _nevoieAjutor;
 	public AudioClip _maSimtBine;
-	public AudioClip _euRoxana;
+	public AudioClip _euLaurentiu;
 	public AudioClip _catCosta;
 
 	// preluare imagini 
@@ -77,7 +77,7 @@ public class Configurare_v2 : MonoBehaviour
 	public GameObject img_nevoieMedic;
 	public GameObject img_nevoieAjutor;
 	public GameObject img_maSimtBine;
-	public GameObject img_euRoxana;
+	public GameObject img_euLaurentiu;
 	public GameObject img_catCosta;
 
 	
@@ -151,7 +151,7 @@ public class Configurare_v2 : MonoBehaviour
 		img_nevoieMedic.SetActive(false);
 		img_nevoieAjutor.SetActive(false);
 		img_maSimtBine.SetActive(false);
-		img_euRoxana.SetActive(false);
+		img_euLaurentiu.SetActive(false);
 		img_catCosta.SetActive(false);		
 	} // end disable_all()
 	
@@ -561,16 +561,16 @@ public class Configurare_v2 : MonoBehaviour
 				counter++;
 				if(counter == 1){
 					if(log == true){
-					Debug.Log ("Semn: eu Roxana");
+					Debug.Log ("Semn: eu Laurentiu");
 					}
 					disable_all();
-					img_euRoxana.SetActive(true);
+					img_euLaurentiu.SetActive(true);
 
-					playerAudio.clip = _euRoxana;
+					playerAudio.clip = _euLaurentiu;
 					playerAudio.Play ();			
 				}
 			}
-		} //end eu sunt roxana (palma in sus)
+		} //end eu sunt Laurnetiu (palma in sus)
 		
 		if(mare == false && aratator == true && mijlociu == true && inelar == true && mic == false && Pozitie_Mana == 2){
 

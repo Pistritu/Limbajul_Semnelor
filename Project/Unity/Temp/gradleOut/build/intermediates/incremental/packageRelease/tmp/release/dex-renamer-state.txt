@@ -1,0 +1,4 @@
+#Mon Jun 28 00:06:10 EEST 2021
+base.0=D\:\\Larry\\Laurentiu_MASTER\\Master_Laurentiu_Dez\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

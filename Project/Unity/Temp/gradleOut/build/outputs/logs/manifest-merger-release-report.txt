@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:70-104
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:2:105-145
+application
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:3:3-15:17
+	android:label
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:3:16-48
+	android:icon
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:3:109-140
+	android:banner
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:3:71-108
+	android:isGame
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:3:49-70
+activity#com.unity3d.player.UnityPlayerActivity
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:4:5-11:16
+	android:screenOrientation
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:4:102-140
+	android:label
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:4:69-101
+	android:launchMode
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:4:141-172
+	android:hardwareAccelerated
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:4:355-390
+	android:configChanges
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:4:173-354
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:4:15-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:5:7-9:23
+action#android.intent.action.MAIN
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:6:9-61
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:6:17-58
+category#android.intent.category.LAUNCHER
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:7:9-69
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:7:19-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:8:9-78
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:8:19-75
+meta-data#unityplayer.UnityActivity
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:10:7-82
+	android:value
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:10:59-79
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:10:18-58
+meta-data#unity.build-id
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:12:5-101
+	android:value
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:12:46-98
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:12:16-45
+meta-data#unity.splash-mode
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:13:5-69
+	android:value
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:13:49-66
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:13:16-48
+meta-data#unity.splash-enable
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:14:5-74
+	android:value
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:14:51-71
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:14:16-50
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:16:3-66
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:16:20-63
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:17:3-72
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:17:20-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:18:3-106
+	android:minSdkVersion
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:18:77-103
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:18:20-76
+uses-feature#android.hardware.bluetooth
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:19:3-85
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:19:59-82
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:19:17-58
+uses-feature#android.hardware.bluetooth_le
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:20:3-89
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:20:62-86
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:20:17-61
+uses-feature#0x00020000
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:25:3-52
+	android:glEsVersion
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:25:17-49
+uses-permission#android.permission.INTERNET
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:26:3-65
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:26:20-62
+uses-permission#android.permission.CAMERA
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:27:3-63
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:27:20-60
+uses-feature#android.hardware.camera
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:28:3-83
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:28:56-80
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:28:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:29:3-93
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:29:66-90
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:29:17-65
+uses-feature#android.hardware.camera.front
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:30:3-89
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:30:62-86
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:30:17-61
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:31:3-97
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:31:70-94
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:31:17-69
+uses-feature#android.hardware.touchscreen
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:32:3-88
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:32:61-85
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:32:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:33:3-99
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:33:72-96
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:33:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:34:3-108
+	android:required
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:34:81-105
+	android:name
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml:34:17-80
+uses-sdk
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+		ADDED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
+		INJECTED from D:\Larry\Laurentiu_MASTER\Master_Laurentiu_Dez\Temp\gradleOut\src\main\AndroidManifest.xml
